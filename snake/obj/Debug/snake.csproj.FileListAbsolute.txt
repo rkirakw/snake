@@ -1,0 +1,16 @@
+C:\Users\rkirakw\source\repos\snake\snake\bin\Debug\snake.exe.config
+C:\Users\rkirakw\source\repos\snake\snake\bin\Debug\snake.exe
+C:\Users\rkirakw\source\repos\snake\snake\bin\Debug\snake.pdb
+C:\Users\rkirakw\source\repos\snake\snake\obj\Debug\snake.csproj.AssemblyReference.cache
+C:\Users\rkirakw\source\repos\snake\snake\obj\Debug\snake.csproj.SuggestedBindingRedirects.cache
+C:\Users\rkirakw\source\repos\snake\snake\obj\Debug\MainWindow.g.cs
+C:\Users\rkirakw\source\repos\snake\snake\obj\Debug\App.g.cs
+C:\Users\rkirakw\source\repos\snake\snake\obj\Debug\snake_MarkupCompile.cache
+C:\Users\rkirakw\source\repos\snake\snake\obj\Debug\snake_MarkupCompile.lref
+C:\Users\rkirakw\source\repos\snake\snake\obj\Debug\MainWindow.baml
+C:\Users\rkirakw\source\repos\snake\snake\obj\Debug\snake.g.resources
+C:\Users\rkirakw\source\repos\snake\snake\obj\Debug\snake.Properties.Resources.resources
+C:\Users\rkirakw\source\repos\snake\snake\obj\Debug\snake.csproj.GenerateResource.cache
+C:\Users\rkirakw\source\repos\snake\snake\obj\Debug\snake.csproj.CoreCompileInputs.cache
+C:\Users\rkirakw\source\repos\snake\snake\obj\Debug\snake.exe
+C:\Users\rkirakw\source\repos\snake\snake\obj\Debug\snake.pdb
