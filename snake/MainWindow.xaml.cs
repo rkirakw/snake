@@ -144,7 +144,7 @@ namespace snake {
     class Snake {
         //Расстояние, на которое будет смещаться каждый сегмент змеи за N единицу времени
         public static int speed { get; private set; }
-        private static Segment head;
+        public static Segment head { get; private set; }
         private static int segmentSize;
         private static int length;
         public static Canvas canv;
@@ -172,22 +172,7 @@ namespace snake {
 
         public static void Move() => head.Move(dir);
 
-        public static void Update() {
-            head.Update();
-
-            if (head.pos == FruitGenerator.pos) {
-                AddSegment();
-                FruitGenerator.Destroy();
-            }
-
-            if (head.prev.IntersectsAny(head.pos)) {
-                Destroy();
-                FruitGenerator.Destroy();
-
-                Snake.Init(new Point(50, 0), canv, length: 5);
-                FruitGenerator.Init(Brushes.DarkCyan, canv);
-            }
-        }
+        public static void Update() => head.Update();
 
         public static bool Intersects(Point p) => head.IntersectsAny(p);
 
@@ -218,6 +203,20 @@ namespace snake {
         private void Timer_Tick(object sender, EventArgs e) {
             Snake.Move();
             Snake.Update();
+
+            if (Snake.head.pos == FruitGenerator.pos) {
+                Snake.AddSegment();
+                FruitGenerator.Destroy();
+            }
+
+            if (Snake.head.prev.IntersectsAny(Snake.head.pos)) {
+                Snake.Destroy();
+                FruitGenerator.Destroy();
+
+                Snake.Init(new Point(50, 0), field, length: 5);
+                FruitGenerator.Init(Brushes.DarkCyan, field);
+            }
+
             FruitGenerator.Generate();
         }
 

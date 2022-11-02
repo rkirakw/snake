@@ -5,6 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:snake"
         mc:Ignorable="d"
-        Title="Snake" Height="600" Width="800" KeyDown="Window_KeyDown">
-    <Canvas x:Name="field" Background="Black" Width="800" Height="590"/>
+        Title="Snake" Height="600" Width="800" KeyDown="Window_KeyDown" Background="DarkRed">
+    <Canvas x:Name="field" Background="Black" Width="800" Height="500"/>
 </Window>
